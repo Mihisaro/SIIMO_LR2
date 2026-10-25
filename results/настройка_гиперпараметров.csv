@@ -1,0 +1,9 @@
+﻿Метод,Конфигурация по умолчанию,AUC по умолчанию,Выбранная конфигурация,AUC после выбора,Прирост AUC
+GaussianNB,"StandardScaler, var_smoothing=1e-9",0.987,"StandardScaler, var_smoothing=1e-03",0.987,0.0
+MultinomialNB,"MinMaxScaler, alpha=1",0.9219,"исходный масштаб, alpha=10",0.9385,0.0167
+ComplementNB,"MinMaxScaler, alpha=1",0.9219,"исходный масштаб, alpha=10",0.9386,0.0167
+BernoulliNB,"MinMaxScaler, порог=0.5, alpha=1",0.9402,"MinMaxScaler, порог=0.3, alpha=1",0.9832,0.0429
+Дерево,"depth=None, leaf=1, gini",0.9172,"depth=5, leaf=20, gini",0.9594,0.0422
+LDA,"svd, без shrinkage, StandardScaler",0.9938,"lsqr, shrinkage=0.5, StandardScaler",0.9914,-0.0024
+SVM,"StandardScaler, rbf, C=1, gamma=scale, обычные веса",0.9949,"linear, C=0.01, веса=обычные, StandardScaler",0.9933,-0.0017
+kNN,"StandardScaler, k=5, uniform, euclidean",0.9871,"k=24, uniform, euclidean, StandardScaler",0.9907,0.0036

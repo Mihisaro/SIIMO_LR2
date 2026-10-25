@@ -1,0 +1,9 @@
+﻿Метод,Параметры
+SVM,"linear, C=0.01, веса=обычные, StandardScaler"
+LDA,"lsqr, shrinkage=0.5, StandardScaler"
+kNN,"k=24, uniform, euclidean, StandardScaler"
+GaussianNB,"StandardScaler, var_smoothing=1e-03"
+BernoulliNB,"MinMaxScaler, порог=0.3, alpha=1"
+Дерево,"depth=5, leaf=20, gini"
+MultinomialNB,"исходный масштаб, alpha=10"
+ComplementNB,"исходный масштаб, alpha=10"
